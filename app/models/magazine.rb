@@ -1,12 +1,10 @@
 class Magazine
-  attr_accessor :name, :category
+  attr_accessor :name, :category, :author
 
-
-  def initialize(name, category)
-    @name = name
-    @category = category
-
+  def initialize (name, category, author)
+    @name=name
+    @category=category
+    @author=author
   end
-
 
 end

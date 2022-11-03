@@ -1,4 +1,5 @@
-class Article
+class Article < Magazines
+
 
 
 end
